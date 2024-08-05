@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 85%;
+}
+
+
+/* Header */
+header {
+    background-color: #26335D;
+    color: white;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+    background-image: url('images/hero-shape-dark-6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+img-hero {
+    width: 704px;
+    height: 682px;
+}
+
+header .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn {
+    background-color: #8D5CF6;
+    color: #f8f9fa;
+    font-size: inherit;
+}
+
+.btn:hover{
+    background-color: #6740b9;
+    color: #f8f9fa;
+}
+
+.joinus{
+    display: flex;
+    margin-left: 30px;
+    width: 138px;
+    height: 56px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.joinus .arrow-right{
+    margin-left: 10px;
+}
+
+header .btn-light {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    
+    color: rgb(49, 47, 190);
+}
+
+.navbar-brand-text {
+    margin-right: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-nav.ml-auto {
+    margin-left: auto;
+}
+
+.btn-outline{
+    background-color: transparent;
+    border: #8D5CF6 1.5px solid;
+
+}
+
+.btn-outline:hover{
+    background-color: transparent;
+    border: #342555 1.5px solid;
+}
+
+/* section */
+section {
+    padding: 50px 0;
+    min-height: 800px;
+    background-color: #26335D;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+section.bg-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.container h1{
+    font-weight: bolder;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.section-subtitle {
+    margin-bottom: 2rem;
+}
+
+.section-par{
+    color: #8D5CF6;
+}
+
+/* seccion 1 */
+#popular-courses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+#popular-courses .card {
+    background-color: white;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    transform: scale(80%);
+    height: 300px;
+}
+
+#popular-courses .card-title{
+    font-weight: bold;
+}
+
+#popular-courses .section-par{
+    color: #8D5CF6;
+}
+#popular-courses .card-body {
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
+}
+
+#popular-courses .icon {
+    width: 80px;
+    margin-bottom: 1.5rem;
+}
+
+#popular-courses .row {
+    display: flex;
+    justify-content: center;
+}
+
+#popular-courses .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Seccion 2 -  our popular courses */
+#our-popular-courses {
+    background-color: #26335D;
+    color: white;
+}
+
+#our-popular-courses .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#our-popular-courses .btn-light {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #000;
+}
+
+#our-popular-courses .btn-light:hover {
+    background-color: #e2e6ea;
+}
+
+#our-popular-courses .section-par{
+    color: #8D5CF6;
+}
+
+#our-popular-courses .section-title{
+    margin-top: 50px;
+    width: 256px;
+    height: 100px;
+}
+
+#our-popular-courses .section-subtitle{
+    margin-top: 50px;
+    width: 351px;
+    height: 60px;
+}
+
+.btn-learnmore{
+    padding-left: 0%;
+    background: transparent;
+    color: #8D5CF6;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.btn-learnmore:hover
+{
+    background-color: transparent;
+    color: #bdaddf;
+
+}
+
+.btn-learnmore:hover .arrow-right{
+    color: #bdaddf;
+
+}
+
+.btn-learnmore .arrow-right{
+    margin-left: 10px;
+}
+
+/* seccion 3 - approdable packages*/
+
+#approdable-packages{
+    color: white;
+}
+
+#approdable-packages .icon {
+    color: #8D5CF6;
+}
+
+#approdable-packages .card{
+    color: #000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#approdable-packages .card-body{
+   padding-top: 0%;
+}
+
+#approdable-packages .sale-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #E74C3C;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+#approdable-packages .btn-group-custom {
+    position: relative;
+    transform: translate(0%, -140%);
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#approdable-packages .btn-custom {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#approdable-packages .btn-custom:hover {
+    background-color: #dcdcdc;
+}
+
+#approdable-packages .btn-custom i {
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    #approdable-packages .btn-custom {
+        width: 38px;
+        height: 38px;
+    }
+
+    #approdable-packages .btn-group-custom {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #approdable-packages .btn-custom {
+        width: 32px;
+        height: 32px;
+    }
+
+    #approdable-packages .btn-group-custom {
+        gap: 9px;
+    }
+}
+
+
+#approdable-packages .card-title-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#approdable-packages .card-title {
+    margin-bottom: 0%;
+    font-weight: bold;
+    color: #8D5CF6;
+}   
+
+#approdable-packages .card-rating {
+    display: flex;
+    align-items: center;
+    background-color: rgb(85, 85, 85);
+    border-radius: 50px;
+    font-size: 0.85em;
+    padding: 1px 7px;
+}
+
+#approdable-packages .card-rating img {
+    margin-right: 5px;
+}
+
+#approdable-packages .card-rating span {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#approdable-packages .card-text {
+    font-weight: bold;
+    padding: 10px 0;
+    margin-bottom: 0%;
+    
+}   
+
+#approdable-packages .card-paragraph {
+    font-weight: 600;
+    color: #737373;
+    
+}   
+
+#approdable-packages .card-sales {
+    font-size: 0.8rem;
+    color: #6c757d;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#approdable-packages .download-icon {
+    margin-right: 5px;
+}
+
+#approdable-packages .card-old-price{
+    color: #BDBDBD;
+}
+
+#approdable-packages .card-price{
+    font-weight: bold;
+    color: #FF7B52;
+}
+
+#approdable-packages .btn-learnmore{
+    border: #8D5CF6 1.5px solid;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+/* seccion - ratings */
+
+#ratings .container {
+    margin-top: 70px;
+}
+
+#ratings .opinion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+    width: auto;
+    background-color: white;
+    color: #000;
+    padding: 20px;
+}
+
+#ratings .user-img {
+    border-radius: 50%;
+    margin: 10px;
+    height: 128px;
+    width: auto;
+}
+
+#ratings .text {
+    width: 150px;
+    color: #737373;
+    font-weight: 500;
+    font-size: 0.85em;
+    margin-top: 10px;
+}
+
+#ratings .user-name {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+#ratings .user-title {
+    color: #737373;
+    font-weight: 700;
+    font-size: 0.95em;
+}
+
+@media (max-width: 767.98px) {
+    .carousel-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel-item {
+        flex: 0 0 100%;
+    }
+
+    .opinion {
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+}
+
+
+/* seccion faq */
+
+#faq .row{
+    margin-top: 40px;
+}
+
+#faq .card-body{
+    display: flex;
+    flex-direction: row;
+}
+
+#faq .card-title{
+    display: flex;
+}
+
+#faq .card-body img{
+    margin: 10px;
+    margin-top: 0%;
+}
+
+#faq .card-content {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* seccion - subscribe */
+
+#subscribe-section {
+    height: 594px;
+    min-height: auto;
+}
+
+
+
+.newsletter-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-section input[type="email"] {
+    padding: 15px;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.newsletter-section input[type="email"]::placeholder{
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+.newsletter-section button {
+    padding: 15px;
+    background-color: #6C63FF;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.newsletter-section button:hover {
+    background-color: #5a53d1;
+}
+
+/* foooter */
+
+footer {
+    background-color: #e9e9f6;
+    color: #333;
+    padding: 50px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px 0;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    font-size: 14px;
+}
+
+.footer-column img {
+    margin: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons img {
+    font-size: 18px;
+    margin: 0 10px;
+    color: #333;
+}
+
+.social-icons img:hover {
+    color: #6C63FF;
+}
+
